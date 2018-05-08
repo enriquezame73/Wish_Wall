@@ -1,0 +1,45 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>许愿墙</title>
+<link rel="stylesheet" href="css/index.css" />
+<script type="text/javascript" src='js/jquery-1.7.2.min.js'></script>
+<script type="text/javascript" src='js/index.js'></script>
+<script type="text/javascript" src='js/nebPay.js'></script>
+
+
+</head>
+<body>
+
+<div id='top'>
+<span id='send'></span>
+</div>
+<div id='main'>
+
+</div>
+
+<div id='send-form'>
+<p class='title'><span>许下你的愿望</span><a href="" id='close'></a></p>
+<form action="" name='wish'>
+<p>
+<label for="username">昵称：</label>
+<input type="text" name='username' id='username'/>
+</p>
+<p>
+<label for="content">愿望：(您还可以输入&nbsp;<span id='font-num'>50</span>&nbsp;个字)</label>
+<textarea name="content" id='content'></textarea>
+
+</p>
+<span id='send-btn'></span>
+</form>
+</div>
+<div id="barcon" name="barcon" ></div>
+<!--[if IE 6]>
+<script type="text/javascript" src="js/iepng.js"></script>
+<script type="text/javascript">
+DD_belatedPNG.fix('#send,#close,.close');
+</script>
+<![endif]-->
+
+</body>
+</html>
